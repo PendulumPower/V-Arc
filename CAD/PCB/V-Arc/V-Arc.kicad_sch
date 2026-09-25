@@ -1,0 +1,127 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "c2c0cba2-f358-4c92-8083-c3d5939961a9")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 52.07 50.8)
+		(size 29.21 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 255 0 15 1)
+		)
+		(uuid "3ef4dbb0-7681-4336-950a-e0aa765c9422")
+		(property "Sheetname" "Power Management"
+			(at 52.07 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pwr_mgmt.kicad_sch"
+			(at 52.07 78.0546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V" input
+			(at 81.28 54.61 0)
+			(uuid "2fa736eb-bb4b-425c-988d-d6896ddec6f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 248 255 251 1)
+				)
+				(justify right)
+			)
+		)
+		(pin "+9V" input
+			(at 81.28 58.42 0)
+			(uuid "a814c53e-7a27-4770-8148-39ba5817d1a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 248 255 251 1)
+				)
+				(justify right)
+			)
+		)
+		(pin "-9V" input
+			(at 81.28 60.96 0)
+			(uuid "119d3add-2250-4859-9361-e4bbd26c6264")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 248 255 251 1)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBAT+" input
+			(at 81.28 66.04 0)
+			(uuid "c27e0876-c70f-40fe-90e5-ab936dcae6e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 248 255 251 1)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBAT-" input
+			(at 81.28 68.58 0)
+			(uuid "a8e2e396-7d96-438d-98ce-55f9b020eeeb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 248 255 251 1)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSYS" input
+			(at 81.28 73.66 0)
+			(uuid "3dbff907-1f68-4606-bac9-a41341415647")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 248 255 251 1)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "V-Arc"
+				(path "/c2c0cba2-f358-4c92-8083-c3d5939961a9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
