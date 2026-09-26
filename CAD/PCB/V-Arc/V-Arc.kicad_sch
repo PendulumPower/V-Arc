@@ -5,8 +5,90 @@
 	(uuid "c2c0cba2-f358-4c92-8083-c3d5939961a9")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 127 41.91) (xy 119.38 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "260f8957-03ff-4391-ac39-ca947014bbb2")
+	)
+	(wire
+		(pts
+			(xy 120.65 81.28) (xy 128.27 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "627d9650-c39b-4f62-be91-c9d8c12bec11")
+	)
+	(wire
+		(pts
+			(xy 120.65 77.47) (xy 127 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e4ddc25-3544-4e87-add7-63df040fbef0")
+	)
+	(wire
+		(pts
+			(xy 119.38 45.72) (xy 132.08 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 2 0 1)
+		)
+		(uuid "9221d19d-ff0e-4742-b844-3775f71f7d9b")
+	)
+	(wire
+		(pts
+			(xy 128.27 81.28) (xy 128.27 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c364a84-b9c0-4d97-a470-088c3bb65bd4")
+	)
+	(wire
+		(pts
+			(xy 119.38 48.26) (xy 132.08 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "9ecb90c8-b990-498b-9de2-6b8485c90412")
+	)
+	(wire
+		(pts
+			(xy 127 77.47) (xy 127 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfe73674-9394-4b0b-85a3-2a4a6a67a031")
+	)
+	(wire
+		(pts
+			(xy 128.27 80.01) (xy 132.08 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dffdfb45-5bb3-45bf-b6bb-368a7fe9c0f9")
+	)
 	(sheet
-		(at 52.07 50.8)
+		(at 90.17 38.1)
 		(size 29.21 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23,7 +105,7 @@
 		)
 		(uuid "3ef4dbb0-7681-4336-950a-e0aa765c9422")
 		(property "Sheetname" "Power Management"
-			(at 52.07 50.0884 0)
+			(at 90.17 37.3884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34,7 +116,7 @@
 			)
 		)
 		(property "Sheetfile" "pwr_mgmt.kicad_sch"
-			(at 52.07 78.0546 0)
+			(at 90.17 65.3546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -45,7 +127,7 @@
 			)
 		)
 		(pin "+5V" input
-			(at 81.28 54.61 0)
+			(at 119.38 41.91 0)
 			(uuid "2fa736eb-bb4b-425c-988d-d6896ddec6f1")
 			(effects
 				(font
@@ -56,7 +138,7 @@
 			)
 		)
 		(pin "+9V" input
-			(at 81.28 58.42 0)
+			(at 119.38 45.72 0)
 			(uuid "a814c53e-7a27-4770-8148-39ba5817d1a1")
 			(effects
 				(font
@@ -67,7 +149,7 @@
 			)
 		)
 		(pin "-9V" input
-			(at 81.28 60.96 0)
+			(at 119.38 48.26 0)
 			(uuid "119d3add-2250-4859-9361-e4bbd26c6264")
 			(effects
 				(font
@@ -78,7 +160,7 @@
 			)
 		)
 		(pin "VBAT+" input
-			(at 81.28 66.04 0)
+			(at 119.38 53.34 0)
 			(uuid "c27e0876-c70f-40fe-90e5-ab936dcae6e3")
 			(effects
 				(font
@@ -89,7 +171,7 @@
 			)
 		)
 		(pin "VBAT-" input
-			(at 81.28 68.58 0)
+			(at 119.38 55.88 0)
 			(uuid "a8e2e396-7d96-438d-98ce-55f9b020eeeb")
 			(effects
 				(font
@@ -100,7 +182,7 @@
 			)
 		)
 		(pin "VSYS" input
-			(at 81.28 73.66 0)
+			(at 119.38 60.96 0)
 			(uuid "3dbff907-1f68-4606-bac9-a41341415647")
 			(effects
 				(font
@@ -114,6 +196,207 @@
 			(project "V-Arc"
 				(path "/c2c0cba2-f358-4c92-8083-c3d5939961a9"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 132.08 43.18)
+		(size 39.37 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 243 247 0 1)
+		)
+		(uuid "895d23e7-783f-4f78-956b-f477f8052eec")
+		(property "Sheetname" "Analog Front End"
+			(at 132.08 42.4684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "afe.kicad_sch"
+			(at 132.08 84.4046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+9V" input
+			(at 132.08 45.72 180)
+			(uuid "561267a5-98d9-43fa-bcd7-cf519a59ddca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "-9V" input
+			(at 132.08 48.26 180)
+			(uuid "f011e12d-262e-442e-9c58-14757fa7155e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AUDIO_IN_ANALOG" input
+			(at 132.08 80.01 180)
+			(uuid "82e5c5b2-b5ad-47dd-a472-a059718d02fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "V-Arc"
+				(path "/c2c0cba2-f358-4c92-8083-c3d5939961a9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 69.85)
+		(size 38.1 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 245 0 255 1)
+		)
+		(uuid "e35f3b61-a50c-4f2e-bc50-4e0495e0e375")
+		(property "Sheetname" "Daisy Seed Core"
+			(at 82.55 69.1384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "daisy_seed.kicad_sch"
+			(at 82.55 113.6146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+3.3V" input
+			(at 120.65 73.66 0)
+			(uuid "517a4ec6-50ec-443b-9531-3c2cf465eba4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 251 255 253 1)
+				)
+				(justify right)
+			)
+		)
+		(pin "+5V" input
+			(at 120.65 77.47 0)
+			(uuid "365c2c4f-bc7f-4377-8e49-1f0ad6f88d74")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 251 255 253 1)
+				)
+				(justify right)
+			)
+		)
+		(pin "AUDIO_IN_ANALOG" input
+			(at 120.65 81.28 0)
+			(uuid "f1138b76-c25d-46ce-9646-5cce85db9bae")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 251 255 253 1)
+				)
+				(justify right)
+			)
+		)
+		(pin "AUDIO_OUT_L" input
+			(at 120.65 85.09 0)
+			(uuid "de5cd71b-e33c-4bef-a628-ebb1c4d94483")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 251 255 253 1)
+				)
+				(justify right)
+			)
+		)
+		(pin "AUDIO_OUT_R" input
+			(at 120.65 88.9 0)
+			(uuid "33691133-ef49-4760-a783-adf44a8ee492")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 251 255 253 1)
+				)
+				(justify right)
+			)
+		)
+		(pin "DSP_UART_RX" input
+			(at 120.65 107.95 0)
+			(uuid "206f884f-daab-4293-b248-1d15dcebd0c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 252 255 253 1)
+				)
+				(justify right)
+			)
+		)
+		(pin "DSP_UART_TX" input
+			(at 120.65 110.49 0)
+			(uuid "ba1f0084-85f2-4803-a4d8-80e8e90e74c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 252 255 253 1)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "V-Arc"
+				(path "/c2c0cba2-f358-4c92-8083-c3d5939961a9"
+					(page "4")
 				)
 			)
 		)
