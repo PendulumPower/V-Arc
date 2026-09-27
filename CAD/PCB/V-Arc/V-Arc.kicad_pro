@@ -648,7 +648,7 @@
         "uuid": "c2c0cba2-f358-4c92-8083-c3d5939961a9"
       }
     ],
-    "used_designators": "R1-14,J1-3,U1-6,L1-2,D1-4,#PWR1-49,C1-24,FB1-2,NT1,SW1-9,RV1-5",
+    "used_designators": "R1-20,J1-6,U1-9,L1-2,D1-4,#PWR1-65,C1-32,FB1-2,NT1,SW1-12,RV1-6",
     "variants": []
   },
   "sheets": [
@@ -667,6 +667,10 @@
     [
       "e35f3b61-a50c-4f2e-bc50-4e0495e0e375",
       "Daisy Seed Core"
+    ],
+    [
+      "cd521f4f-8c0d-4b76-895a-4b50b3cf718c",
+      "Xiao ESP Core"
     ]
   ],
   "text_variables": {},

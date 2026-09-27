@@ -5,19 +5,57 @@
 	(uuid "c2c0cba2-f358-4c92-8083-c3d5939961a9")
 	(paper "A4")
 	(lib_symbols)
+	(junction
+		(at 142.24 82.55)
+		(diameter 0)
+		(color 255 189 0 1)
+		(uuid "d2068dc9-e64c-49b8-a78f-90e583de9392")
+	)
 	(wire
 		(pts
-			(xy 127 41.91) (xy 119.38 41.91)
+			(xy 143.51 46.99) (xy 135.89 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 189 0 1)
 		)
 		(uuid "260f8957-03ff-4391-ac39-ca947014bbb2")
 	)
 	(wire
 		(pts
-			(xy 120.65 81.28) (xy 128.27 81.28)
+			(xy 142.24 100.33) (xy 144.78 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 189 0 1)
+		)
+		(uuid "3072a9d3-d357-404a-8c81-b7e4625eb337")
+	)
+	(wire
+		(pts
+			(xy 137.16 113.03) (xy 144.78 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4659e984-9f9c-43b4-bdf6-9472f85b642b")
+	)
+	(wire
+		(pts
+			(xy 137.16 106.68) (xy 144.78 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54a8790a-2e39-4c92-8f3b-34d0472a914f")
+	)
+	(wire
+		(pts
+			(xy 137.16 86.36) (xy 144.78 86.36)
 		)
 		(stroke
 			(width 0)
@@ -27,17 +65,39 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 77.47) (xy 127 77.47)
+			(xy 142.24 82.55) (xy 142.24 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 189 0 1)
+		)
+		(uuid "643fc174-db63-49f7-8426-217924b9f379")
+	)
+	(wire
+		(pts
+			(xy 137.16 82.55) (xy 142.24 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 189 0 1)
 		)
 		(uuid "7e4ddc25-3544-4e87-add7-63df040fbef0")
 	)
 	(wire
 		(pts
-			(xy 119.38 45.72) (xy 132.08 45.72)
+			(xy 137.16 115.57) (xy 144.78 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85171511-dc3f-476e-ad58-d1abc7dfe358")
+	)
+	(wire
+		(pts
+			(xy 135.89 50.8) (xy 148.59 50.8)
 		)
 		(stroke
 			(width 0)
@@ -48,7 +108,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 81.28) (xy 128.27 80.01)
+			(xy 144.78 86.36) (xy 144.78 85.09)
 		)
 		(stroke
 			(width 0)
@@ -58,7 +118,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 48.26) (xy 132.08 48.26)
+			(xy 135.89 53.34) (xy 148.59 53.34)
 		)
 		(stroke
 			(width 0)
@@ -69,17 +129,28 @@
 	)
 	(wire
 		(pts
-			(xy 127 77.47) (xy 127 41.91)
+			(xy 137.16 104.14) (xy 144.78 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+		(uuid "adf35908-cbf9-4a11-a4e6-e05083d3eca5")
+	)
+	(wire
+		(pts
+			(xy 143.51 82.55) (xy 143.51 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 189 0 1)
+		)
 		(uuid "bfe73674-9394-4b0b-85a3-2a4a6a67a031")
 	)
 	(wire
 		(pts
-			(xy 128.27 80.01) (xy 132.08 80.01)
+			(xy 144.78 85.09) (xy 148.59 85.09)
 		)
 		(stroke
 			(width 0)
@@ -87,8 +158,19 @@
 		)
 		(uuid "dffdfb45-5bb3-45bf-b6bb-368a7fe9c0f9")
 	)
+	(wire
+		(pts
+			(xy 142.24 82.55) (xy 143.51 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 178 0 1)
+		)
+		(uuid "ec9842e2-33ac-4e2c-9962-47d1747fe246")
+	)
 	(sheet
-		(at 90.17 38.1)
+		(at 106.68 43.18)
 		(size 29.21 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -105,7 +187,7 @@
 		)
 		(uuid "3ef4dbb0-7681-4336-950a-e0aa765c9422")
 		(property "Sheetname" "Power Management"
-			(at 90.17 37.3884 0)
+			(at 106.68 42.4684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -116,7 +198,7 @@
 			)
 		)
 		(property "Sheetfile" "pwr_mgmt.kicad_sch"
-			(at 90.17 65.3546 0)
+			(at 106.68 70.4346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -127,7 +209,7 @@
 			)
 		)
 		(pin "+5V" input
-			(at 119.38 41.91 0)
+			(at 135.89 46.99 0)
 			(uuid "2fa736eb-bb4b-425c-988d-d6896ddec6f1")
 			(effects
 				(font
@@ -138,7 +220,7 @@
 			)
 		)
 		(pin "+9V" input
-			(at 119.38 45.72 0)
+			(at 135.89 50.8 0)
 			(uuid "a814c53e-7a27-4770-8148-39ba5817d1a1")
 			(effects
 				(font
@@ -149,41 +231,8 @@
 			)
 		)
 		(pin "-9V" input
-			(at 119.38 48.26 0)
+			(at 135.89 53.34 0)
 			(uuid "119d3add-2250-4859-9361-e4bbd26c6264")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(color 248 255 251 1)
-				)
-				(justify right)
-			)
-		)
-		(pin "VBAT+" input
-			(at 119.38 53.34 0)
-			(uuid "c27e0876-c70f-40fe-90e5-ab936dcae6e3")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(color 248 255 251 1)
-				)
-				(justify right)
-			)
-		)
-		(pin "VBAT-" input
-			(at 119.38 55.88 0)
-			(uuid "a8e2e396-7d96-438d-98ce-55f9b020eeeb")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(color 248 255 251 1)
-				)
-				(justify right)
-			)
-		)
-		(pin "VSYS" input
-			(at 119.38 60.96 0)
-			(uuid "3dbff907-1f68-4606-bac9-a41341415647")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -201,7 +250,7 @@
 		)
 	)
 	(sheet
-		(at 132.08 43.18)
+		(at 148.59 48.26)
 		(size 39.37 40.64)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -218,7 +267,7 @@
 		)
 		(uuid "895d23e7-783f-4f78-956b-f477f8052eec")
 		(property "Sheetname" "Analog Front End"
-			(at 132.08 42.4684 0)
+			(at 148.59 47.5484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -229,7 +278,7 @@
 			)
 		)
 		(property "Sheetfile" "afe.kicad_sch"
-			(at 132.08 84.4046 0)
+			(at 148.59 89.4846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -240,7 +289,7 @@
 			)
 		)
 		(pin "+9V" input
-			(at 132.08 45.72 180)
+			(at 148.59 50.8 180)
 			(uuid "561267a5-98d9-43fa-bcd7-cf519a59ddca")
 			(effects
 				(font
@@ -250,7 +299,7 @@
 			)
 		)
 		(pin "-9V" input
-			(at 132.08 48.26 180)
+			(at 148.59 53.34 180)
 			(uuid "f011e12d-262e-442e-9c58-14757fa7155e")
 			(effects
 				(font
@@ -260,7 +309,7 @@
 			)
 		)
 		(pin "AUDIO_IN_ANALOG" input
-			(at 132.08 80.01 180)
+			(at 148.59 85.09 180)
 			(uuid "82e5c5b2-b5ad-47dd-a472-a059718d02fe")
 			(effects
 				(font
@@ -278,7 +327,134 @@
 		)
 	)
 	(sheet
-		(at 82.55 69.85)
+		(at 144.78 96.52)
+		(size 38.1 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 0 255 235 1)
+		)
+		(uuid "cd521f4f-8c0d-4b76-895a-4b50b3cf718c")
+		(property "Sheetname" "Xiao ESP Core"
+			(at 144.78 95.8084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp_core.kicad_sch"
+			(at 144.78 141.5546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V" input
+			(at 144.78 100.33 180)
+			(uuid "94d2bb35-c74a-46d9-9097-4ce63adb91ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSP_UART_RX" input
+			(at 144.78 113.03 180)
+			(uuid "b57e44e1-6746-43de-8940-75e792f35b08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSP_UART_TX" input
+			(at 144.78 115.57 180)
+			(uuid "9d5be59a-2139-4f42-88af-86570fa7f300")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "XiaoV" input
+			(at 144.78 129.54 180)
+			(uuid "360b7633-e019-4bd5-bf64-4b054ca66750")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AUDIO_OUT_ANALOG_L" input
+			(at 144.78 104.14 180)
+			(uuid "4adab2a0-6e09-405c-8561-56307827a6e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AUDIO_OUT_ANALOG_R" input
+			(at 144.78 106.68 180)
+			(uuid "00656857-0785-4725-b8d3-fb3150643067")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT_L_FINAL" input
+			(at 144.78 132.08 180)
+			(uuid "115841cb-82cc-46f3-b4cb-7171733661a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT_R_FINAL" input
+			(at 144.78 134.62 180)
+			(uuid "b82d4b51-fbc9-4ad3-9915-d368d92cf524")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "V-Arc"
+				(path "/c2c0cba2-f358-4c92-8083-c3d5939961a9"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 99.06 74.93)
 		(size 38.1 43.18)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -295,7 +471,7 @@
 		)
 		(uuid "e35f3b61-a50c-4f2e-bc50-4e0495e0e375")
 		(property "Sheetname" "Daisy Seed Core"
-			(at 82.55 69.1384 0)
+			(at 99.06 74.2184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -306,7 +482,7 @@
 			)
 		)
 		(property "Sheetfile" "daisy_seed.kicad_sch"
-			(at 82.55 113.6146 0)
+			(at 99.06 118.6946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -317,7 +493,7 @@
 			)
 		)
 		(pin "+3.3V" input
-			(at 120.65 73.66 0)
+			(at 137.16 78.74 0)
 			(uuid "517a4ec6-50ec-443b-9531-3c2cf465eba4")
 			(effects
 				(font
@@ -328,7 +504,7 @@
 			)
 		)
 		(pin "+5V" input
-			(at 120.65 77.47 0)
+			(at 137.16 82.55 0)
 			(uuid "365c2c4f-bc7f-4377-8e49-1f0ad6f88d74")
 			(effects
 				(font
@@ -339,7 +515,7 @@
 			)
 		)
 		(pin "AUDIO_IN_ANALOG" input
-			(at 120.65 81.28 0)
+			(at 137.16 86.36 0)
 			(uuid "f1138b76-c25d-46ce-9646-5cce85db9bae")
 			(effects
 				(font
@@ -349,30 +525,8 @@
 				(justify right)
 			)
 		)
-		(pin "AUDIO_OUT_L" input
-			(at 120.65 85.09 0)
-			(uuid "de5cd71b-e33c-4bef-a628-ebb1c4d94483")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(color 251 255 253 1)
-				)
-				(justify right)
-			)
-		)
-		(pin "AUDIO_OUT_R" input
-			(at 120.65 88.9 0)
-			(uuid "33691133-ef49-4760-a783-adf44a8ee492")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(color 251 255 253 1)
-				)
-				(justify right)
-			)
-		)
 		(pin "DSP_UART_RX" input
-			(at 120.65 107.95 0)
+			(at 137.16 113.03 0)
 			(uuid "206f884f-daab-4293-b248-1d15dcebd0c4")
 			(effects
 				(font
@@ -383,12 +537,34 @@
 			)
 		)
 		(pin "DSP_UART_TX" input
-			(at 120.65 110.49 0)
+			(at 137.16 115.57 0)
 			(uuid "ba1f0084-85f2-4803-a4d8-80e8e90e74c7")
 			(effects
 				(font
 					(size 1.27 1.27)
 					(color 252 255 253 1)
+				)
+				(justify right)
+			)
+		)
+		(pin "AUDIO_OUT_ANALOG_L" input
+			(at 137.16 104.14 0)
+			(uuid "7ff943c2-17cd-4da3-8bfe-c7c3b48a3fe6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 253 255 251 1)
+				)
+				(justify right)
+			)
+		)
+		(pin "AUDIO_OUT_ANALOG_R" input
+			(at 137.16 106.68 0)
+			(uuid "39ee9fbc-f4b0-4090-b371-7c3ef38c049e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 253 255 251 1)
 				)
 				(justify right)
 			)
