@@ -3667,7 +3667,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 73.66 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3782,7 +3782,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
 			(at 163.83 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3940,7 +3940,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 201.93 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -4101,7 +4101,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 201.93 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -4185,7 +4185,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 73.66 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -4379,7 +4379,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 201.93 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4737,7 +4737,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
 			(at 218.44 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4819,7 +4819,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 80.01 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4898,7 +4898,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 205.74 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -4977,7 +4977,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 80.01 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -5214,7 +5214,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 73.66 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5329,7 +5329,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_E-Switch_FS5700DP_DPDT"
 			(at 212.09 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -5408,7 +5408,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 204.47 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5490,7 +5490,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 201.93 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -5574,7 +5574,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 73.66 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5691,7 +5691,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 73.66 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5885,7 +5885,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 80.01 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6043,7 +6043,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 85.09 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6122,7 +6122,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 205.74 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6204,7 +6204,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 81.28 93.98 0)
 			(hide yes)
 			(show_name no)

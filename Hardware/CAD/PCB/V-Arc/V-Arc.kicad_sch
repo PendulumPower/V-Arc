@@ -395,16 +395,6 @@
 				(justify left)
 			)
 		)
-		(pin "XiaoV" input
-			(at 144.78 129.54 180)
-			(uuid "360b7633-e019-4bd5-bf64-4b054ca66750")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "AUDIO_OUT_ANALOG_L" input
 			(at 144.78 104.14 180)
 			(uuid "4adab2a0-6e09-405c-8561-56307827a6e2")
@@ -418,26 +408,6 @@
 		(pin "AUDIO_OUT_ANALOG_R" input
 			(at 144.78 106.68 180)
 			(uuid "00656857-0785-4725-b8d3-fb3150643067")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "OUT_L_FINAL" input
-			(at 144.78 132.08 180)
-			(uuid "115841cb-82cc-46f3-b4cb-7171733661a4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "OUT_R_FINAL" input
-			(at 144.78 134.62 180)
-			(uuid "b82d4b51-fbc9-4ad3-9915-d368d92cf524")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -490,17 +460,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "+3.3V" input
-			(at 137.16 78.74 0)
-			(uuid "517a4ec6-50ec-443b-9531-3c2cf465eba4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(color 251 255 253 1)
-				)
-				(justify right)
 			)
 		)
 		(pin "+5V" input

@@ -3395,7 +3395,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 123.19 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -3727,7 +3727,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 134.62 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -3885,7 +3885,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 106.68 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -4196,7 +4196,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 87.63 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4277,7 +4277,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 102.235 127 0)
 			(hide yes)
 			(show_name no)
@@ -4503,7 +4503,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 123.19 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -4537,28 +4537,28 @@
 			)
 		)
 		(pin "4"
-			(uuid "97448d20-84d0-4eb4-a58d-65cbd942c74d")
+			(uuid "97448d20-84d0-4eb4-a58d-65cbd942c74e")
 		)
 		(pin "5"
-			(uuid "ccf3c778-cbfa-48fb-8fba-7097f3e44336")
+			(uuid "ccf3c778-cbfa-48fb-8fba-7097f3e44337")
 		)
 		(pin "7"
-			(uuid "3457dc84-68a0-479a-9e8b-b4fd42275984")
+			(uuid "3457dc84-68a0-479a-9e8b-b4fd42275985")
 		)
 		(pin "1"
-			(uuid "907bf8e2-c750-4517-8762-025104760572")
+			(uuid "907bf8e2-c750-4517-8762-025104760573")
 		)
 		(pin "2"
-			(uuid "500e5e2f-b5f9-4c9e-ae8d-c97ea28d5b48")
+			(uuid "500e5e2f-b5f9-4c9e-ae8d-c97ea28d5b49")
 		)
 		(pin "3"
-			(uuid "c62a175e-a6b5-4d5a-9482-b133450458a2")
+			(uuid "c62a175e-a6b5-4d5a-9482-b133450458a3")
 		)
 		(pin "6"
-			(uuid "24a4261d-5558-417c-9375-c97f2a3eeb96")
+			(uuid "24a4261d-5558-417c-9375-c97f2a3eeb97")
 		)
 		(pin "8"
-			(uuid "219af54f-045d-48cd-a78d-c98ac548a014")
+			(uuid "219af54f-045d-48cd-a78d-c98ac548a015")
 		)
 		(instances
 			(project "V-Arc"
@@ -4681,7 +4681,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm_Wuerth-430476085716"
 			(at 119.38 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4763,7 +4763,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 87.63 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -4843,7 +4843,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 137.16 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4925,7 +4925,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ1-3523N_Horizontal"
 			(at 215.9 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5009,7 +5009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm_Wuerth-430476085716"
 			(at 124.46 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5247,7 +5247,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ1-3513N_Horizontal"
 			(at 215.9 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5408,7 +5408,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 152.4 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5490,7 +5490,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 152.4 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -5648,7 +5648,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
 			(at 146.05 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -5727,7 +5727,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 123.19 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -5761,28 +5761,28 @@
 			)
 		)
 		(pin "4"
-			(uuid "97448d20-84d0-4eb4-a58d-65cbd942c74d")
+			(uuid "97448d20-84d0-4eb4-a58d-65cbd942c74f")
 		)
 		(pin "5"
-			(uuid "ccf3c778-cbfa-48fb-8fba-7097f3e44336")
+			(uuid "ccf3c778-cbfa-48fb-8fba-7097f3e44338")
 		)
 		(pin "7"
-			(uuid "3457dc84-68a0-479a-9e8b-b4fd42275984")
+			(uuid "3457dc84-68a0-479a-9e8b-b4fd42275986")
 		)
 		(pin "1"
-			(uuid "907bf8e2-c750-4517-8762-025104760572")
+			(uuid "907bf8e2-c750-4517-8762-025104760574")
 		)
 		(pin "2"
-			(uuid "500e5e2f-b5f9-4c9e-ae8d-c97ea28d5b48")
+			(uuid "500e5e2f-b5f9-4c9e-ae8d-c97ea28d5b4a")
 		)
 		(pin "3"
-			(uuid "c62a175e-a6b5-4d5a-9482-b133450458a2")
+			(uuid "c62a175e-a6b5-4d5a-9482-b133450458a4")
 		)
 		(pin "6"
-			(uuid "24a4261d-5558-417c-9375-c97f2a3eeb96")
+			(uuid "24a4261d-5558-417c-9375-c97f2a3eeb98")
 		)
 		(pin "8"
-			(uuid "219af54f-045d-48cd-a78d-c98ac548a014")
+			(uuid "219af54f-045d-48cd-a78d-c98ac548a016")
 		)
 		(instances
 			(project "V-Arc"
@@ -5905,7 +5905,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ1-3513N_Horizontal"
 			(at 215.9 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5985,7 +5985,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
 			(at 80.01 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -6064,7 +6064,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
 			(at 80.01 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6221,7 +6221,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 121.92 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6456,7 +6456,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
 			(at 146.05 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6535,7 +6535,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 111.76 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6615,7 +6615,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 137.16 129.54 0)
 			(hide yes)
 			(show_name no)
