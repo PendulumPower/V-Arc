@@ -1563,7 +1563,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
 			(at 93.98 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2035,7 +2035,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
 			(at 116.84 102.87 0)
 			(hide yes)
 			(show_name no)
