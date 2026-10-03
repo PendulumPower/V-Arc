@@ -2569,7 +2569,7 @@
 	)
 	(text_box "OLED Display"
 		(exclude_from_sim no)
-		(at 67.31 57.15 0)
+		(at 82.55 57.15 0)
 		(size 29.21 38.1)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2628,10 +2628,10 @@
 		)
 		(uuid "5f0e2066-9ced-4a96-b7d4-c2406dbc7f8d")
 	)
-	(text_box "Page Turner Buttons"
+	(text_box "Page Turner Button"
 		(exclude_from_sim no)
-		(at 97.79 30.48 0)
-		(size 36.83 41.91)
+		(at 113.03 30.48 0)
+		(size 21.59 41.91)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2681,7 +2681,7 @@
 		(uuid "1f17f174-d42c-412a-bbb6-5acc5ef5f8c8")
 	)
 	(junction
-		(at 114.3 63.5)
+		(at 128.27 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c458a89-249e-4686-9e8a-5d3edfc2a930")
@@ -2697,12 +2697,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6fe28696-4ad7-41c4-8763-fb62979402d3")
-	)
-	(junction
-		(at 119.38 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "74013e96-81df-4092-8942-364cd35f6875")
 	)
 	(junction
 		(at 152.4 129.54)
@@ -2733,12 +2727,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d787b126-9a53-48c3-b238-53c2ab23d219")
-	)
-	(junction
-		(at 116.84 45.72)
-		(diameter 0)
-		(color 0 0 0 1)
-		(uuid "e9b94bcc-ae42-4dcb-816d-093fdd3acdee")
 	)
 	(wire
 		(pts
@@ -2803,7 +2791,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 43.18) (xy 116.84 45.72)
+			(xy 128.27 44.45) (xy 128.27 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2814,18 +2802,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 45.72) (xy 116.84 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "347341ed-5598-4a0a-a36e-7e234a94090b")
-	)
-	(wire
-		(pts
-			(xy 114.3 63.5) (xy 114.3 71.12)
+			(xy 128.27 63.5) (xy 128.27 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2835,7 +2812,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 74.93) (xy 151.13 74.93)
+			(xy 107.95 74.93) (xy 151.13 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2866,18 +2843,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 45.72) (xy 119.38 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "618119c6-ce88-4ba2-84a9-c089882ce968")
-	)
-	(wire
-		(pts
-			(xy 92.71 80.01) (xy 97.79 80.01)
+			(xy 107.95 80.01) (xy 111.76 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2947,23 +2913,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 55.88) (xy 114.3 63.5)
+			(xy 128.27 55.88) (xy 128.27 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "88e85d97-0d06-449c-80fe-300d257e5f42")
-	)
-	(wire
-		(pts
-			(xy 119.38 55.88) (xy 119.38 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97687e7d-2eb0-4bf7-aa49-012d1bcf6110")
 	)
 	(wire
 		(pts
@@ -3069,7 +3025,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 80.01) (xy 97.79 78.74)
+			(xy 111.76 80.01) (xy 111.76 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3079,27 +3035,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 67.31) (xy 151.13 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8f35136-d8ea-4946-96d6-2b3ed4a50cab")
-	)
-	(wire
-		(pts
-			(xy 119.38 62.23) (xy 119.38 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cde5f1ff-e504-45ad-8ae3-aab832eb7f98")
-	)
-	(wire
-		(pts
-			(xy 97.79 78.74) (xy 151.13 78.74)
+			(xy 111.76 78.74) (xy 151.13 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3109,7 +3045,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 71.12) (xy 151.13 71.12)
+			(xy 128.27 71.12) (xy 151.13 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3212,7 +3148,7 @@
 	)
 	(hierarchical_label "XiaoV"
 		(shape input)
-		(at 82.55 87.63 270)
+		(at 97.79 87.63 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3534,85 +3470,6 @@
 			(project "V-Arc"
 				(path "/c2c0cba2-f358-4c92-8083-c3d5939961a9/cd521f4f-8c0d-4b76-895a-4b50b3cf718c"
 					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 124.46 62.23 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "04536ce9-5f00-480d-a0d5-635009fa612e")
-		(property "Reference" "#PWR056"
-			(at 130.81 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 128.27 62.2299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 124.46 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "612946cf-3e38-492a-99b7-9aedba2ff80e")
-		)
-		(instances
-			(project "V-Arc"
-				(path "/c2c0cba2-f358-4c92-8083-c3d5939961a9/cd521f4f-8c0d-4b76-895a-4b50b3cf718c"
-					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -4277,7 +4134,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical"
 			(at 102.235 127 0)
 			(hide yes)
 			(show_name no)
@@ -4394,7 +4251,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 116.84 43.18 180)
+		(at 128.27 44.45 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4405,7 +4262,7 @@
 		(fields_autoplaced yes)
 		(uuid "519ae969-55f4-4af8-af02-8f8394be5bc6")
 		(property "Reference" "#PWR054"
-			(at 116.84 36.83 0)
+			(at 128.27 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4416,7 +4273,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 116.8399 39.37 90)
+			(at 128.2699 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4427,7 +4284,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 43.18 0)
+			(at 128.27 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4438,7 +4295,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 43.18 0)
+			(at 128.27 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4449,7 +4306,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 116.84 43.18 0)
+			(at 128.27 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4571,7 +4428,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 82.55 67.31 180)
+		(at 97.79 67.31 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4582,7 +4439,7 @@
 		(fields_autoplaced yes)
 		(uuid "5bbea357-f356-4bd6-9986-1a0551019ca5")
 		(property "Reference" "#PWR053"
-			(at 82.55 60.96 0)
+			(at 97.79 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4593,7 +4450,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 82.5499 63.5 90)
+			(at 97.7899 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4604,7 +4461,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 67.31 0)
+			(at 97.79 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4615,7 +4472,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 67.31 0)
+			(at 97.79 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4626,7 +4483,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 82.55 67.31 0)
+			(at 97.79 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4650,7 +4507,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 114.3 50.8 270)
+		(at 128.27 50.8 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4660,7 +4517,7 @@
 		(dnp no)
 		(uuid "6280367d-4481-4d80-8ab1-9ae65aff5be5")
 		(property "Reference" "SW10"
-			(at 106.68 48.006 90)
+			(at 120.65 48.006 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4671,7 +4528,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 106.68 50.546 90)
+			(at 120.65 50.546 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4682,7 +4539,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm_Wuerth-430476085716"
-			(at 119.38 50.8 0)
+			(at 133.35 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4693,7 +4550,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 50.8 0)
+			(at 133.35 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4704,7 +4561,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 114.3 50.8 0)
+			(at 128.27 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4977,87 +4834,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 119.38 50.8 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "70305dd0-5df7-4062-8558-7aecf03398f5")
-		(property "Reference" "SW11"
-			(at 121.158 46.99 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 120.904 49.022 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm_Wuerth-430476085716"
-			(at 124.46 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 119.38 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b04dcd21-885d-4bf0-986e-6173fda4b5f5")
-		)
-		(pin "2"
-			(uuid "f902201d-b36d-4568-9637-87a02ab46c16")
-		)
-		(instances
-			(project "V-Arc"
-				(path "/c2c0cba2-f358-4c92-8083-c3d5939961a9/cd521f4f-8c0d-4b76-895a-4b50b3cf718c"
-					(reference "SW11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
 		(at 152.4 134.62 0)
 		(unit 1)
@@ -5297,7 +5073,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 109.22 63.5 270)
+		(at 123.19 63.5 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5308,7 +5084,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f02a789-030d-45cd-8781-6389f5577b62")
 		(property "Reference" "#PWR055"
-			(at 102.87 63.5 0)
+			(at 116.84 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5319,7 +5095,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 105.41 63.4999 90)
+			(at 119.38 63.4999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5330,7 +5106,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 63.5 0)
+			(at 123.19 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5341,7 +5117,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 63.5 0)
+			(at 123.19 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5352,7 +5128,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 109.22 63.5 0)
+			(at 123.19 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6191,85 +5967,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 121.92 62.23 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e039eb45-53be-4fd0-90be-a1232af107f0")
-		(property "Reference" "C26"
-			(at 121.9263 55.88 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10 nF"
-			(at 122.682 58.928 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 121.92 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 121.92 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2e05086e-9975-4735-adb7-ae23dd26d7ea")
-		)
-		(pin "1"
-			(uuid "c1f8cfce-a9d0-42ee-89ec-befba71fdb4d")
-		)
-		(instances
-			(project "V-Arc"
-				(path "/c2c0cba2-f358-4c92-8083-c3d5939961a9/cd521f4f-8c0d-4b76-895a-4b50b3cf718c"
-					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
 		(at 101.6 123.19 180)
 		(unit 1)
@@ -6506,7 +6203,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 111.76 63.5 90)
+		(at 125.73 63.5 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6516,7 +6213,7 @@
 		(dnp no)
 		(uuid "f09c9220-8d5d-488a-a3bd-bf4e19c9934f")
 		(property "Reference" "C25"
-			(at 111.7663 57.15 90)
+			(at 125.7363 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6526,7 +6223,7 @@
 			)
 		)
 		(property "Value" "10 nF"
-			(at 110.998 59.69 90)
+			(at 124.968 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6536,7 +6233,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 111.76 63.5 0)
+			(at 125.73 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6547,7 +6244,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 63.5 0)
+			(at 125.73 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6558,7 +6255,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 111.76 63.5 0)
+			(at 125.73 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6743,7 +6440,7 @@
 	)
 	(symbol
 		(lib_id "Display_Graphic:ER_OLEDM0.91_1x-I2C")
-		(at 82.55 77.47 180)
+		(at 97.79 77.47 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6754,7 +6451,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa843b7f-462d-4301-b0ee-f72a4569901a")
 		(property "Reference" "U8"
-			(at 69.85 77.47 90)
+			(at 85.09 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6764,7 +6461,7 @@
 			)
 		)
 		(property "Value" "ER_OLEDM0.91_1x-I2C"
-			(at 72.39 77.47 90)
+			(at 87.63 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6774,7 +6471,7 @@
 			)
 		)
 		(property "Footprint" "Display:ER_OLEDM0.91_1x-I2C"
-			(at 64.516 64.77 0)
+			(at 79.756 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6785,7 +6482,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.buydisplay.com/download/manual/ER-OLEDM0.91-1_Datasheet.pdf"
-			(at 39.878 62.738 0)
+			(at 55.118 62.738 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6796,7 +6493,7 @@
 			)
 		)
 		(property "Description" "SSD1306 OLED module, 0.91 inch, 128x32, I2C"
-			(at 55.88 60.706 0)
+			(at 71.12 60.706 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
