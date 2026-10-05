@@ -1481,7 +1481,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ1-3513N_Horizontal"
+		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NMJ4HCD2_Horizontal"
 			(at 82.55 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -1563,7 +1563,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 93.98 102.87 0)
 			(hide yes)
 			(show_name no)

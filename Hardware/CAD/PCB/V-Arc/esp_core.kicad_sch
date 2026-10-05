@@ -2705,6 +2705,12 @@
 		(uuid "86f7de11-03bc-48e8-b99f-f1f6b0d44516")
 	)
 	(junction
+		(at 205.74 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "933f4839-f9ba-4fdf-b387-f35136abc6b9")
+	)
+	(junction
 		(at 130.81 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2802,6 +2808,26 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 110.49) (xy 209.55 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36887ce0-10d9-4e88-8fff-ecacbca47f48")
+	)
+	(wire
+		(pts
+			(xy 209.55 109.22) (xy 205.74 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "574857cb-0e0b-4e56-b40b-5b3b3244f03a")
+	)
+	(wire
+		(pts
 			(xy 128.27 63.5) (xy 128.27 71.12)
 		)
 		(stroke
@@ -2829,17 +2855,6 @@
 			(type default)
 		)
 		(uuid "5d531c67-9967-48e3-9dd2-62ccfec26a8b")
-	)
-	(wire
-		(pts
-			(xy 195.58 116.84) (xy 210.82 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "5dc3cd1e-3d15-4377-9a86-329f32669f20")
 	)
 	(wire
 		(pts
@@ -2893,6 +2908,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 107.95) (xy 205.74 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81317d8d-fb02-494b-a60f-48d690fb630a")
+	)
+	(wire
+		(pts
 			(xy 82.55 118.11) (xy 87.63 118.11)
 		)
 		(stroke
@@ -2923,7 +2948,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 109.22) (xy 195.58 109.22)
+			(xy 217.17 113.03) (xy 195.58 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2982,6 +3007,16 @@
 			(type default)
 		)
 		(uuid "b45b4c09-b96f-4f26-a403-bccdf4b34a30")
+	)
+	(wire
+		(pts
+			(xy 205.74 109.22) (xy 205.74 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b551c941-63ce-4275-8fe5-0d13efb0163f")
 	)
 	(wire
 		(pts
@@ -3126,7 +3161,17 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 109.22) (xy 195.58 116.84)
+			(xy 209.55 110.49) (xy 209.55 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f059b82a-f14f-4347-bf20-43036e7f4ec0")
+	)
+	(wire
+		(pts
+			(xy 195.58 113.03) (xy 195.58 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3189,17 +3234,6 @@
 			(justify right)
 		)
 		(uuid "49bc03e6-3808-4576-86f5-7c2e2147e951")
-	)
-	(hierarchical_label "OUT_R_FINAL"
-		(shape input)
-		(at 210.82 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6dc29198-3c3d-495c-8a7b-30cfdbebf59b")
 	)
 	(hierarchical_label "AUDIO_OUT_ANALOG_R"
 		(shape input)
@@ -3280,7 +3314,7 @@
 	)
 	(hierarchical_label "OUT_L_FINAL"
 		(shape input)
-		(at 210.82 106.68 180)
+		(at 200.66 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3288,6 +3322,17 @@
 			(justify right)
 		)
 		(uuid "ecc8261b-f6cc-4bb6-9ff8-f13b0a6ae64d")
+	)
+	(hierarchical_label "OUT_R_FINAL"
+		(shape input)
+		(at 200.66 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f90ef37e-af09-44a0-b75b-4827ee34dd3b")
 	)
 	(hierarchical_label "+9V"
 		(shape input)
@@ -3712,6 +3757,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 203.2 110.49 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1d2937f2-c898-4158-ae2f-9291ddb09a53")
+		(property "Reference" "R22"
+			(at 203.454 110.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10 kΩ"
+			(at 203.2 112.268 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 203.2 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 203.2 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f85ee78-4db6-4c87-9e24-97db41d288fd")
+		)
+		(pin "2"
+			(uuid "b438f1ec-24e9-49d5-a040-9d95b7edc321")
+		)
+		(instances
+			(project "V-Arc"
+				(path "/c2c0cba2-f358-4c92-8083-c3d5939961a9/cd521f4f-8c0d-4b76-895a-4b50b3cf718c"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 106.68 147.32 0)
 		(unit 1)
@@ -4014,6 +4138,85 @@
 			(project "V-Arc"
 				(path "/c2c0cba2-f358-4c92-8083-c3d5939961a9/cd521f4f-8c0d-4b76-895a-4b50b3cf718c"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 203.2 107.95 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4ac9ad6c-0988-4081-a2b4-749e67f9779b")
+		(property "Reference" "R21"
+			(at 203.454 107.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10 kΩ"
+			(at 203.2 105.41 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 203.2 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 203.2 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf6b61c3-bab9-4c76-807f-83dd116fe57c")
+		)
+		(pin "2"
+			(uuid "b1b246d7-25a9-4edf-9e3f-63b7b8c5ba20")
+		)
+		(instances
+			(project "V-Arc"
+				(path "/c2c0cba2-f358-4c92-8083-c3d5939961a9/cd521f4f-8c0d-4b76-895a-4b50b3cf718c"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -4990,88 +5193,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2")
-		(at 215.9 114.3 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90c40b3c-e28d-42bc-aca4-fdabbe258e3b")
-		(property "Reference" "J6"
-			(at 220.98 113.6649 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "AudioJack2"
-			(at 220.98 116.2049 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ1-3513N_Horizontal"
-			(at 215.9 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-			(at 215.9 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "S"
-			(uuid "d5184ccb-fcb2-481d-b9fb-5c6e89449420")
-		)
-		(pin "T"
-			(uuid "326a3404-3863-4dcd-98c3-9bb5c20eed6c")
-		)
-		(instances
-			(project "V-Arc"
-				(path "/c2c0cba2-f358-4c92-8083-c3d5939961a9/cd521f4f-8c0d-4b76-895a-4b50b3cf718c"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
 		(at 123.19 63.5 270)
 		(unit 1)
@@ -5649,7 +5770,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack2")
-		(at 215.9 106.68 180)
+		(at 222.25 110.49 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5660,7 +5781,7 @@
 		(fields_autoplaced yes)
 		(uuid "d0831c4f-3f26-40cc-b471-b7bbae4c3a5e")
 		(property "Reference" "J4"
-			(at 220.98 106.0449 0)
+			(at 227.33 109.8549 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5671,7 +5792,7 @@
 			)
 		)
 		(property "Value" "AudioJack2"
-			(at 220.98 108.5849 0)
+			(at 227.33 112.3949 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5681,8 +5802,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ1-3513N_Horizontal"
-			(at 215.9 106.68 0)
+		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NMJ4HCD2_Horizontal"
+			(at 222.25 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5693,7 +5814,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 106.68 0)
+			(at 222.25 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5704,7 +5825,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-			(at 215.9 106.68 0)
+			(at 222.25 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
